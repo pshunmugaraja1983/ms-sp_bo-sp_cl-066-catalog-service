@@ -6,6 +6,11 @@ env:
   IMAGE_NAME: pshunmugaraja1983/catalog-service   
   VERSION: latest       
 
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+  
 jobs:
   build:
     name: Build and Test
